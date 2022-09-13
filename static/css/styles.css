@@ -672,6 +672,33 @@ a:active,a:hover
 .content_de .fight-content__subtitle {
     font-size: 2.13951vw;
 }
+@media (max-height:377px) { 
+	.content_de .order-item__name {
+		font-size: 8px;
+	}
+	.content_de .revolutional-content__subtitle {
+		font-size: 2vw;
+	}
+	.content__de .revolutional-content__txt p {
+		font-size: 1.1vw;
+	}
+
+	.content_de .revolutional-content__txt ul li {
+		font-size: 1.3vw;
+	}
+
+	.content_de .revolutional-content__txt p {
+		font-size: 0.9vw;
+	}
+
+	.content_de .revolutional-content__txt ul li:not(:last-child) {
+		margin-bottom: 0.35208vw;
+	}
+
+	.content_de .fight-content__txt {
+		font-size: 1.2vw;
+	}
+}
 @media (max-width:910px) { 
     .content_de .order-item__btn {
 		font-size: 11px;
@@ -691,7 +718,7 @@ a:active,a:hover
 		font-size: 30px;
 	}
 	.content_de .order-head__title,.content_de .order-head__subtitle {
-		font-size: 5.33333vw;
+		font-size: 2.33333vw;
 	}
 
 	.content_de .order-content__head-title {
@@ -746,6 +773,9 @@ a:active,a:hover
 	}
 }
 @media (max-width:480px) {
+	.content_de .order-head__title, .content_de .order-head__subtitle {
+		font-size: 16px;
+	}
     .content_de .intro-content__title-1 {
         font-size: 8vw;
     }
@@ -5234,7 +5264,7 @@ header
 	.footer-menu__item
 	{
 		font-size: 2.93vw;
-		margin: 0 1.67vw;
+		margin: 0 1.67vw 6px 1.67vw;
 	}
 }
 @media (min-width:481px) and (max-width:767px)
