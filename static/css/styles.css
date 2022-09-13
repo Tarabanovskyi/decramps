@@ -793,12 +793,13 @@ a:active,a:hover
     }
     .content_de .intro-content__foot-txt {
         font-size: 3vw;
+		margin-top: 3px;
     }
     .content_de .btn {
         font-size: 4.5vw;
     }
     .content_de .formula-title {
-        font-size: 6vw;
+        font-size: 5.5vw;
     }
     .content_de .formula-txt-1, .content_de .formula-txt-2 {
         font-size: 3.5vw;
