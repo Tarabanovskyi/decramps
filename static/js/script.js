@@ -128,11 +128,10 @@ function orderForm() {
       if (!item.value) {
         e.preventDefault()
         item.style.borderColor = 'red'
-        item.style.boxShadow = '0 0 0 0.1rem rgb(220 53 69 / 100%)'
+
 
         item.addEventListener('focusin', function () {
           item.style.borderColor = null
-          item.style.boxShadow = null
         })
       }
     })
